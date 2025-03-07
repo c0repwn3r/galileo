@@ -68,7 +68,7 @@ impl<'a> EguiMap<'a> {
 }
 
 pub struct EguiMapState {
-    map: Map,
+    pub map: Map,
     egui_render_state: RenderState,
     renderer: WgpuRenderer,
     requires_redraw: Arc<AtomicBool>,
